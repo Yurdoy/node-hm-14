@@ -1,7 +1,7 @@
 import express from "express";
 import "dotenv/config.js";
-// import connectDb from "./src/config.js";
-// import { connect } from "mongoose";
+import connectDb from "./src/config.js";
+import { connect } from "mongoose";
 
 const app = express();
 app.use(express.json());
